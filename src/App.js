@@ -5,8 +5,8 @@ import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 
 //538b5f67
-const API_URL = "http://www.omdbapi.com/?apikey=538b5f67";
-const API_KEY = "538b5f67"
+const API_URL = "https://www.omdbapi.com/?apikey=538b5f67";
+const API_KEY = "538b5f67";
 
 // const movie1 = {
 //   Title: "No Time to Die: Official Title Reveal of Bond 25",
@@ -29,8 +29,7 @@ const App = () => {
 
   useEffect(() => {
     searchMovies("Spider man");
-
-  },[]);
+  }, []);
 
   return (
     <div className="container">
